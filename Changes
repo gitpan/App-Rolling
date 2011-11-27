@@ -1,0 +1,39 @@
+Revision history for Perl extension App::Rolling
+
+0.10    17:58 2011/11/27
+        added test
+        fixed dependency
+
+0.09    2:54 2011/11/27
+        fixed up tests
+
+0.081   22:29 2011/11/26
+        fixed Pod
+
+0.08    22:16 2011/11/26
+        added test for roll command
+
+0.07    14:41 2011/11/26
+        Use IO::Interactive::is_interactive() instead of -t
+
+0.06    10:25 2011/11/26
+        default arg is the target file. you do not need specify -f option.
+
+0.05    10:11 2011/11/26
+        added Pod on App::Rolling
+        tiny fixes about reading file.
+
+0.04    20:28 2011/11/25
+        fixed Pod
+        fixed test
+
+0.03    20:09 2011/11/25
+        New Feature: --no-rotate set, never rotate files
+
+0.02    19:38 2011/11/25
+        New Feature: --through option is through stream to STDIN
+        fixed dependancy modules
+        fixed Pod
+
+0.01    Mon Nov 21 19:51:13 2011
+        - original version

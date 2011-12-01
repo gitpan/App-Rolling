@@ -5,10 +5,11 @@ author:
 build_requires:
   Exporter: 0
   File::Basename: 0
-  File::Path: 0
+  File::Path: 2.07
   File::Spec: 0
   IO::Dir: 0
   Test::More: 0.88
+  parent: 0
 configure_requires:
   Module::Build: 0.36
 generated_by: 'Module::Build version 0.3607'
@@ -20,10 +21,10 @@ name: App-Rolling
 provides:
   App::Rolling:
     file: lib/App/Rolling.pm
-    version: 0.10
+    version: 0.11
 requires:
   Carp: 0
-  Getopt::Long: 0
+  Getopt::Long: 2.38
   IO::File: 0
   IO::Interactive: 0
   Path::Class: 0
@@ -31,4 +32,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/bayashi/App-Rolling
-version: 0.10
+version: 0.11
